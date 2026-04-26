@@ -351,5 +351,5 @@ Works in any environment that supports ES2017 (async/await, `Object.entries`). N
 ## License
 
 MIT © munesoft
-#   a p i - n o r m a l i z e r  
+#   a p i - n o r m a l i z e r 
  
