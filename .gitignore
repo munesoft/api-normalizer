@@ -1,6 +1,18 @@
-node_modules/
-dist/
-coverage/
-*.tsbuildinfo
-*.log
-.DS_Store
+# Force LF line endings for all text files
+* text=auto eol=lf
+ 
+# Explicitly LF for these types
+*.ts   text eol=lf
+*.js   text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.txt  text eol=lf
+ 
+# Binary files — no conversion
+*.png  binary
+*.jpg  binary
+*.gif  binary
+*.ico  binary
+*.tgz  binary
